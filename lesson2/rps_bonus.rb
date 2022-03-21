@@ -95,8 +95,6 @@ class C3PO < Computer
 end
 
 class History
-  attr_reader :match_moves
-
   def initialize
     @match_moves = []
   end
